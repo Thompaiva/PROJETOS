@@ -1,0 +1,101 @@
+# Shark Attack Study Around The Globe
+
+This project aimed to find where are the places with most shark attacks in the world, and which one are more dangerous.
+
+## Technology
+
+The software  used in this project was:
+
+* Python version  3.8.3
+
+## Services Used
+
+* Github
+
+
+## Python Libraries
+
+* Pandas
+* Numpy
+* Seaborn
+* Matplotlib
+* Sklearn
+
+
+
+## Hipóteses
+
+1- Did shark attacks raised in the last 50 years ?
+2- In which countries we have more lethal attacks ?
+3- Among the 5 countries with most lethal attacks, what are they're letality ratio? How was it's progression in the last 50 years?
+
+
+
+## Método
+
+- Mostrar tabela inicial
+ Foi montado 1 tabelta baseado nos dados obtidos no https://www.kaggle.com/search procurando por Global Shark Attacks e baixando o dataset.
+ (foto tabela inicial) + (foto colunas iniciais)
+- mostrar como foi feito o filtro de acordo com o necessário nas hipoteses 
+ De acordo com as hipoteses, fui tirando colunas com pouca informação ou com informação não importante.
+ Preenchi as linhas sem informação da coluna Fatal Y/N de acordo com a informação dada na coluna  (foto da tabela após filtro, com menos colunas)
+Injuries.
+- Mostrar as conclusões das hipoteses de acordo com os dados
+  Em ordem, fui criando gráficos que mostrassem o necessário para tirar as conclusões das hipoteses.
+
+
+## Hipótese 1
+
+### Houve um aumento da progressão dos ataques nos últimos 50 anos (total e por país)?
+
+- mostrar gráficos
+ (foto ataquesXano)+(foto ataquesXpaís) 
+- mostrar conclusao
+ De acordo com o gráfico "Nº de ataques nos últimos 50 anos" podemos ver que houve um aumento considerável de ataques de tubarão (mais de 5 vezes de 1977 até 2017). 
+
+## Hipótese 2
+
+### Quais países tem mais ataques letais?
+
+- mostrar gráficos
+ (foto letaisXpais)
+- mostrar conclusao
+ Interessante observar que mesmo com muito menos ataque que os EUA, a austrália tem muito mais ataques fatais por ano.
+
+## Hipótese 3
+
+### Dos 5 países onde há mais ataques letais, qual a taxa de letalidade? Ela cresce ou diminuí nos últimos 50 anos?
+
+- mostrar gráficos
+- mostrar conclusao
+  Como podemos ver de acordo com os gráficos, apenas no Brasil e na África do Sul temos um aumento na taxa de ataques letais, enquanto nos EUA, Austrália e Reunion, tivemos uma queda.
+
+
+
+
+
+## Features
+
+
+ - Import from dataset
+ - Data cleaning
+ - Data manipulation
+ - Data analysis
+ - Creation of the linear regression model
+ - Application of the model
+ - Analysis of the result
+
+## Links
+
+  - Repository: https://github.com/adrianoay/projeto_4
+  - In case of sensitive bugs like security vulnerabilities, please contact adrianoay@gmail.com directly instead of using issue tracker. We value your effort to improve the security and privacy of this project!
+
+
+## Versioning
+
+1.0.0.0
+
+
+## Authors
+
+* **Thomas R. C. Paiva**: @Thompaiva (https://github.com/Thompaiva/)
