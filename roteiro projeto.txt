@@ -1,3 +1,6 @@
+<p align="center">
+<img src=" alt="" border="0">
+</p>
 # Shark Attack Study Around The Globe
 
 This project aimed to find where are the places with most shark attacks in the world, and which one are more dangerous.
@@ -27,48 +30,62 @@ The software  used in this project was:
 
 1- Did shark attacks raised in the last 50 years ?
 2- In which countries we have more lethal attacks ?
-3- Among the 5 countries with most lethal attacks, what are they're letality ratio? How was it's progression in the last 50 years?
+3- Among the 5 countries with most lethal attacks, what are their letality ratio? How was it's progression in the last 50 years?
 
 
 
 ## Método
 
 - Mostrar tabela inicial
- Foi montado 1 tabelta baseado nos dados obtidos no https://www.kaggle.com/search procurando por Global Shark Attacks e baixando o dataset.
+A DataFrame was created based on informations obtained in https://www.kaggle.com/search when seartching for Global Shark Attacks.
  (foto tabela inicial) + (foto colunas iniciais)
-- mostrar como foi feito o filtro de acordo com o necessário nas hipoteses 
- De acordo com as hipoteses, fui tirando colunas com pouca informação ou com informação não importante.
- Preenchi as linhas sem informação da coluna Fatal Y/N de acordo com a informação dada na coluna  (foto da tabela após filtro, com menos colunas)
-Injuries.
+
+According to the hipoteses, a filter taking off some columns and unnecessary information was made. Also some fields in the DataFrame where we had no information, were filled.
+The lines in "Fatal Y/N" column that were "NaN" were filled with information based on "Injury" column.
+ (foto da tabela após filtro, com menos colunas)
 - Mostrar as conclusões das hipoteses de acordo com os dados
-  Em ordem, fui criando gráficos que mostrassem o necessário para tirar as conclusões das hipoteses.
+In order, some graphics were created to show the necessary information to get the answers I was looking for.
+  
 
 
 ## Hipótese 1
 
-### Houve um aumento da progressão dos ataques nos últimos 50 anos (total e por país)?
+### Did shark attacks raised in the last 50 years ?
 
-- mostrar gráficos
+Here we can see whether or not there has been an increase in attacks over the last 50 years.
+
+<p align="center">
+<img src="https://github.com/Thompaiva/PROJETOS/blob/main/screenshots/ataquesXano.png" alt="" border="0">
+</p>
+<p align="center">
+<img src="https://github.com/Thompaiva/PROJETOS/blob/main/screenshots/ataquesXpa%C3%ADs.png" alt="" border="0">
+</p>
  (foto ataquesXano)+(foto ataquesXpaís) 
-- mostrar conclusao
- De acordo com o gráfico "Nº de ataques nos últimos 50 anos" podemos ver que houve um aumento considerável de ataques de tubarão (mais de 5 vezes de 1977 até 2017). 
 
+According to the graphic below, we can see that there has been a considerable increase in shark attacks (over 5 times from 1977 to 2017)
+ 
 ## Hipótese 2
 
-### Quais países tem mais ataques letais?
+### In which countries we have more lethal attacks ?
 
-- mostrar gráficos
+Here we can see which countries have the highest number of lethal attacks.
+
  (foto letaisXpais)
+
 - mostrar conclusao
- Interessante observar que mesmo com muito menos ataque que os EUA, a austrália tem muito mais ataques fatais por ano.
+As the graphic indicates, we can see that Australia,The United States, South Africa, Brazil and Reunion have more lethal attacks.
+Interesting to note that even with much less attacks than the USA, Australia has more fatal attacks per year.
 
 ## Hipótese 3
 
-### Dos 5 países onde há mais ataques letais, qual a taxa de letalidade? Ela cresce ou diminuí nos últimos 50 anos?
+### Among the 5 countries with most lethal attacks, what are their letality ratio? How was it's progression in the last 50 years?
+
+Here we will see, individually, how the progression of lethal attacks rate  (# of lethal attacks divided by # of total attacks) has been in the last 50 years.
 
 - mostrar gráficos
-- mostrar conclusao
-  Como podemos ver de acordo com os gráficos, apenas no Brasil e na África do Sul temos um aumento na taxa de ataques letais, enquanto nos EUA, Austrália e Reunion, tivemos uma queda.
+
+
+As we can see according to the graphics, only in Brazil and South Africa we have an increase in the rate of lethal attacks, while in the USA, Australia and Reunion, it decreases.
 
 
 
@@ -87,8 +104,7 @@ Injuries.
 
 ## Links
 
-  - Repository: https://github.com/adrianoay/projeto_4
-  - In case of sensitive bugs like security vulnerabilities, please contact adrianoay@gmail.com directly instead of using issue tracker. We value your effort to improve the security and privacy of this project!
+  - Repository: https://github.com/FALTAPREENCHER
 
 
 ## Versioning
@@ -98,4 +114,4 @@ Injuries.
 
 ## Authors
 
-* **Thomas R. C. Paiva**: @Thompaiva (https://github.com/Thompaiva/)
+* **Thomas R. de C. Paiva**: @Thompaiva (https://github.com/Thompaiva/)
