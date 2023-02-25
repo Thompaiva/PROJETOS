@@ -72,7 +72,7 @@ Here we can see whether or not there has been an increase in attacks over the la
 <img src="https://github.com/Thompaiva/PROJETOS/blob/main/screenshots/ataquesXpa%C3%ADs.png" alt="" border="0">
 </p>
 
-According to the graphics above, we can see that there has been a considerable increase in shark attacks (over 5 times from 1977 to 2017)
+According to the graphics above, we can see that there has been a considerable increase in shark attacks (over 5 times from 1977 to 2017). Also we can see that more than 50% of them, was in the USA.
  
 ## Hipótese 2
 
