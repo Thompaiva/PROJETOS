@@ -31,11 +31,11 @@ The software  used in this project was:
 
 ## Hipóteses
 
-1- Did shark attacks raised in the last 50 years ?
+1- Did shark attacks raised in the last 40 years ?
 
 2- In which countries we have more lethal attacks ?
 
-3- Among the 5 countries with most lethal attacks, what are their letality ratio? How was it's progression in the last 50 years?
+3- Among the 5 countries with most lethal attacks, what are their letality ratio? How was it's progression in the last 40 years?
 
 
 
@@ -61,7 +61,7 @@ In order, some graphics were created to show the necessary information to get th
 
 ## Hipótese 1
 
-### Did shark attacks raised in the last 50 years ?
+### Did shark attacks raised in the last 40 years ?
 
 Here we can see whether or not there has been an increase in attacks over the last 50 years.
 
@@ -90,9 +90,9 @@ Interesting to note that even with much less attacks than the USA, Australia has
 
 ## Hipótese 3
 
-### Among the 5 countries with most lethal attacks, what are their letality ratio? How was it's progression in the last 50 years?
+### Among the 5 countries with most lethal attacks, what are their letality ratio? How was it's progression in the last 40 years?
 
-Here we will see, individually, how the progression of lethal attacks rate  (# of lethal attacks divided by # of total attacks) has been in the last 50 years.
+Here we will see, individually, how the progression of lethal attacks rate  (# of lethal attacks divided by # of total attacks) has been in the last 40 years.
 
 #### Australia
 <p align="center">
