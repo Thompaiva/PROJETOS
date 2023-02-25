@@ -1,2 +1,117 @@
-# PROJETOS
-projetos da iron hack
+<p align="center">
+<img src=" alt="" border="0">
+</p>
+# Shark Attack Study Around The Globe
+
+This project aimed to find where are the places with most shark attacks in the world, and which one are more dangerous.
+
+## Technology
+
+The software  used in this project was:
+
+* Python version  3.8.3
+
+## Services Used
+
+* Github
+
+
+## Python Libraries
+
+* Pandas
+* Numpy
+* Seaborn
+* Matplotlib
+* Sklearn
+
+
+
+## Hipóteses
+
+1- Did shark attacks raised in the last 50 years ?
+2- In which countries we have more lethal attacks ?
+3- Among the 5 countries with most lethal attacks, what are their letality ratio? How was it's progression in the last 50 years?
+
+
+
+## Método
+
+- Mostrar tabela inicial
+A DataFrame was created based on informations obtained in https://www.kaggle.com/search when seartching for Global Shark Attacks.
+ (foto tabela inicial) + (foto colunas iniciais)
+
+According to the hipoteses, a filter taking off some columns and unnecessary information was made. Also some fields in the DataFrame where we had no information, were filled.
+The lines in "Fatal Y/N" column that were "NaN" were filled with information based on "Injury" column.
+ (foto da tabela após filtro, com menos colunas)
+- Mostrar as conclusões das hipoteses de acordo com os dados
+In order, some graphics were created to show the necessary information to get the answers I was looking for.
+  
+
+
+## Hipótese 1
+
+### Did shark attacks raised in the last 50 years ?
+
+Here we can see whether or not there has been an increase in attacks over the last 50 years.
+
+<p align="center">
+<img src="https://github.com/Thompaiva/PROJETOS/blob/main/screenshots/ataquesXano.png" alt="" border="0">
+</p>
+<p align="center">
+<img src="https://github.com/Thompaiva/PROJETOS/blob/main/screenshots/ataquesXpa%C3%ADs.png" alt="" border="0">
+</p>
+ (foto ataquesXano)+(foto ataquesXpaís) 
+
+According to the graphic below, we can see that there has been a considerable increase in shark attacks (over 5 times from 1977 to 2017)
+ 
+## Hipótese 2
+
+### In which countries we have more lethal attacks ?
+
+Here we can see which countries have the highest number of lethal attacks.
+
+ (foto letaisXpais)
+
+- mostrar conclusao
+As the graphic indicates, we can see that Australia,The United States, South Africa, Brazil and Reunion have more lethal attacks.
+Interesting to note that even with much less attacks than the USA, Australia has more fatal attacks per year.
+
+## Hipótese 3
+
+### Among the 5 countries with most lethal attacks, what are their letality ratio? How was it's progression in the last 50 years?
+
+Here we will see, individually, how the progression of lethal attacks rate  (# of lethal attacks divided by # of total attacks) has been in the last 50 years.
+
+- mostrar gráficos
+
+
+As we can see according to the graphics, only in Brazil and South Africa we have an increase in the rate of lethal attacks, while in the USA, Australia and Reunion, it decreases.
+
+
+
+
+
+## Features
+
+
+ - Import from dataset
+ - Data cleaning
+ - Data manipulation
+ - Data analysis
+ - Creation of the linear regression model
+ - Application of the model
+ - Analysis of the result
+
+## Links
+
+  - Repository: https://github.com/FALTAPREENCHER
+
+
+## Versioning
+
+1.0.0.0
+
+
+## Authors
+
+* **Thomas R. de C. Paiva**: @Thompaiva (https://github.com/Thompaiva/)
