@@ -63,7 +63,7 @@ In order, some graphics were created to show the necessary information to get th
 
 ### Did shark attacks raised in the last 40 years ?
 
-Here we can see whether or not there has been an increase in attacks over the last 50 years.
+Here we can see whether or not there has been an increase in attacks over the last 40 years.
 
 <p align="center">
 <img src="https://github.com/Thompaiva/PROJETOS/blob/main/screenshots/ataquesXano.png" alt="" border="0">
