@@ -41,7 +41,6 @@ The software  used in this project was:
 
 ## Método
 
-- Mostrar tabela inicial
 A DataFrame was created based on informations obtained in https://www.kaggle.com/search when seartching for Global Shark Attacks.
 <p align="center">
 <img src="https://github.com/Thompaiva/PROJETOS/blob/main/screenshots/tabela_original.png" alt="" border="0">
@@ -53,8 +52,9 @@ A DataFrame was created based on informations obtained in https://www.kaggle.com
 
 According to the hipoteses, a filter taking off some columns and unnecessary information was made. Also some fields in the DataFrame where we had no information, were filled.
 The lines in "Fatal Y/N" column that were "NaN" were filled with information based on "Injury" column.
- (foto da tabela após filtro, com menos colunas)
-- Mostrar as conclusões das hipoteses de acordo com os dados
+ <p align="center">
+<img src="https://github.com/Thompaiva/PROJETOS/blob/main/screenshots/tabeltafiltrada.png" alt="" border="0">
+</p>
 In order, some graphics were created to show the necessary information to get the answers I was looking for.
   
 
