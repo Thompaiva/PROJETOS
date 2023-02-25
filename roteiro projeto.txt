@@ -1,7 +1,10 @@
 <p align="center">
-<img src="" alt="" border="0">
+<img src="https://github.com/Thompaiva/PROJETOS/blob/main/screenshots/tubarao2.png" alt="" border="0">
 </p>
+
 # Shark Attack Study Around The Globe
+
+
 
 This project aimed to find where are the places with most shark attacks in the world, and which one are more dangerous.
 
